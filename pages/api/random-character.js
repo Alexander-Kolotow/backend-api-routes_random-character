@@ -11,7 +11,7 @@ export default function handleRandomCharacter(request, response) {
       gender: chance.gender(),
       age: chance.age(),
       email: chance.email(),
-      twitter: `@${chance.twitter()}`,
+      twitter: `${chance.twitter()}`,
       geohash: chance.geohash(),
     };
 
